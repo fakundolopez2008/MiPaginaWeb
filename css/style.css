@@ -1,0 +1,144 @@
+/* FUENTE COMFORTAA*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Comfortaa', cursive;
+}
+
+
+/* ------- generales ------- */
+
+nav {
+	padding: 10px;
+
+}
+
+header {
+	padding: 40px;
+	background-color: #6998AB;
+	text-align: center;
+}
+
+body {
+	background-image: linear-gradient(to bottom, #1A374D, #74808a);
+}
+
+footer {
+	display: grid;
+	grid-template-columns: 33.33333333% 33.33333333% 33.33333333%;
+	grid-template-rows: 60px;
+	grid-template-areas: "a1 a2 a3";
+	justify-items: center;
+	align-items: center;
+	background-color: #6998AB;
+}
+
+h1 {
+	display: inline;
+	text-align: center;
+	margin-left: 100px;
+}
+
+li {
+	display: inline;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	transition: padding 0.5s;
+}
+
+li:hover {
+	background-image: linear-gradient(to bottom, #80bae6, #e6eaee);
+	padding: 20px;
+}
+
+
+a {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+tr {
+	text-align: center;
+	border-style: solid;
+}
+
+
+/* ------- CLASS ------- */
+
+.tabla1 {
+	background-color: white;
+	margin-left: 350px;
+	margin-right: 350px;
+	width: 1412.22px;
+	height: 1085.56px;
+}
+
+.tabla2 {
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+.sticky {
+	position: sticky;
+	top: 0;
+	padding: 5px;
+	background-color: #B1D0E0;
+}
+
+.head {
+	background-color: #6998AB;
+	text-align: center;
+}
+
+.menu {
+	margin-left: 210px;
+	margin-right: 210px;
+}
+
+
+.pills {
+	height: 200px;
+	width: 200px;
+}
+
+
+
+.noticias {
+	font-size: 40px;
+	margin-top: 50px;
+}
+
+.image {
+	height: 100px;
+	width: 180px;
+}
+
+.tabla2td {
+	border-style: solid;
+	margin: 50px;
+	padding: 40px;
+}
+
+
+/* ------- ID's ------- */
+
+#scienza {
+	height: 150px;
+	width: 150px;
+}
+
+#glenmark {
+	height: 130px;
+	width: 200px;
+}
+
+#msd {
+	height: 80px;
+	width: 200px;
+}
